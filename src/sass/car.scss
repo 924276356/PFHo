@@ -1,0 +1,294 @@
+#topnav {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #F5F5F5;
+}
+
+#topnav a:hover {
+        color: #e52d88;
+}
+
+#topnav dd {
+        z-index: 1003;
+        position: relative;
+        float: left;
+}
+#topnav dd.on h2 a {
+        border-bottom: 1px solid #fff;
+        background: #fff;
+        color: #e52d88;
+}
+
+#topnav dd.on h2 a i {
+    background-position: 0 -9px;
+}
+
+#topnav ul {
+        top: 31px;
+        box-sizing: border-box;
+        border: 1px solid #e5e5e5;
+        border-top: 0;
+        background: #fff;
+        display: none;
+        text-align: right; /*by:czh*/
+        right: -13px; /*by:czh*/
+        position: absolute;
+}
+
+#topnav i {
+        display: block;
+        top: 13px;
+        right: 8px;
+        position: absolute;
+}
+
+#topnav h2 a {
+        padding: 0 25px 0 15px;
+        border-bottom: 1px solid transparent;
+        position: relative;
+        color:black;
+}
+.topnav-l{
+    float: left;
+}
+.topnav-l ul {
+    width: 372px;
+    padding: 15px 5px;
+    left: -149px;
+}
+
+.topnav-l ul li {
+        width: 90px;
+        line-height: 40px;
+    
+}
+.topnav-r{
+     float: right;
+}
+.topnav-r ul {
+    right: -1px;
+    width: 329px;
+    padding: 0 5px;
+}
+
+.topnav-r ul p, .topnav-r ul div {
+    width: 79px;
+}
+
+.topnav-r ul li {
+        width: 90px;
+        /*line-height: 40px;*/
+        float: left;
+}
+.topnav-l ul li,.topnav-r ul p,.topnav-r ul div{
+    text-align: center;
+    float: left;
+}
+
+.register-please {
+    margin-left: 12px;
+}
+
+.topnav-line {
+    width: 1px;
+    height: 16px;
+    background: #555;
+    margin: 7px 12px 0;
+}
+
+#header{
+    height:150px;
+    width:100%;
+    border-bottom:2px solid #bc338b;
+}
+.header{
+    background: url(../images/car_bar.PNG) no-repeat 755px 30px;
+}
+.header .receipt-process-title {
+    margin: 78px 0 0 10px;
+    font-size: 16px;
+    font-weight: 900;
+    float:left;
+
+}
+.header .lkn-logo img{
+    margin:45px 0px 0px 0px;
+}
+
+
+
+#car{
+    height: 524px;
+}
+.car{
+    height: 524px;
+    position:relative;
+}
+.car h2{
+    height: 38px;
+    background:#FBFBFB;
+    border-bottom: 2px solid #D9D9D9;
+    position: relative;
+    padding-top: 12px;
+}
+.car h2 span:nth-child(1){
+    position:absolute;
+    left: 70px;
+}
+.car h2 span:nth-child(2){
+    position:absolute;
+    left: 465px;
+}
+.car h2 span:nth-child(3){
+    position:absolute;
+    left: 545px;
+}
+.car h2 span:nth-child(4){
+    position:absolute;
+    left: 700px;
+}
+.car h2 span:nth-child(5){
+    position:absolute;
+    left: 945px;
+}
+.car h2 span:nth-child(6){
+    position:absolute;
+    right:18px;
+}
+.car #goodslist{
+    min-height: 350px;
+    overflow-y: auto;
+}
+.car #goodslist li{
+    height: 101px;
+    position:relative;
+    padding-top: 10px;
+    border-bottom:1px solid #ccc;
+}
+.car #goodslist .delgoods{
+    width: 14px;
+    height: 14px;
+    border:1px solid #B6B6B6;
+    background:#ccc;
+    display:inline-block;
+    color:white;
+    position:absolute;
+    right:23px;
+    text-align: center;
+    line-height: 10px  ;
+}
+ #goodslist li .delgoods:hover{
+    background:#bc338b;
+    cursor:pointer;
+}
+.car #goodslist li img{
+    height: 90px;
+    width: 90px;
+}
+.car #goodslist li .gName{
+    position:absolute;
+    left:100px;
+    display:inline-block;
+    margin-top: 15px;
+}
+.car #goodslist li .size{
+    position:absolute;
+    left:100px;
+    top:45px;
+}
+.car #goodslist li .color{
+    position:absolute;
+    left:100px;
+    top:65px;
+}
+.car #goodslist li .amount{
+    position:absolute;
+    left:450px;
+    display:inline-block;
+    width:60px;
+    height: 20px;
+    border:1px solid #D9D9D9;
+}
+.car #goodslist li .amount .add{
+    width: 12px;
+    background:white;
+    border-right: 1px solid #ccc;
+}
+.car #goodslist li .amount .add:hover{
+    background:#bc338b;
+}
+.car #goodslist li .amount span{
+    display:inline-block;
+    width:24px;
+    text-align: center;
+}
+.car #goodslist li .amount .sub{
+    width: 12px;
+    background:white;
+    border-left: 1px solid #ccc;
+}
+.car #goodslist li .amount .sub:hover{
+    background:#bc338b;
+}
+.car #goodslist li .price{
+    position:absolute;
+    left:545px;
+    display:inline-block;
+}
+.car #goodslist li .discont{
+    position:absolute;
+    left:708px;
+    display:inline-block;
+}
+.car #goodslist li .Totalprice{
+    position:absolute;
+    left:945px;
+    display:inline-block;
+}
+ .car .allprice{
+    float:right;
+    font-size: 16px;
+    color:#333333;
+    margin-right: 12px;
+
+}
+.car .allprice span{
+    font-size: 16px;
+    color:red;
+}
+.car .clearCar{
+    width:150px;
+    height: 30px;
+    color:white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius: 15px;
+    margin:25px 0 0 10px;
+    background:#bc338b;
+}
+.car .clearCar:hover{
+    cursor:pointer;
+     box-shadow: -1px -1px 14px black;
+}
+.car .checkout{
+    width: 186px;
+    height: 30px;
+    padding-left: 16px;
+    border-radius: 15px 0px 0px 15px;
+    // background: url(../images/car_js.png) no-repeat 170px center;
+    background-color:#bc338b;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 30px;
+    color:white;
+    margin-left: 800px;
+    text-align: center;
+}
+.car .checkout:hover{
+    cursor:pointer;
+    box-shadow: -1px -1px 14px black;
+}
