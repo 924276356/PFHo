@@ -292,7 +292,7 @@
 }
 
 #content .contentNew {
-  height: 596px;
+  height: 615px;
   margin: 70px auto 0px;
   background: #fff;
 }
@@ -472,4 +472,9 @@
   height: 500px;
   float: right;
   border: 1px solid #ccc;
+}
+
+#bottom {
+  height: 530px;
+  background: #0c1839;
 }

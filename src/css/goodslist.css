@@ -334,3 +334,8 @@
 #market .marketGoods .goodsQty li:hover {
   border: 2px solid #bc338b;
 }
+
+#bottom {
+  height: 530px;
+  background: #0c1839;
+}

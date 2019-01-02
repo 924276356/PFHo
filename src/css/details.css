@@ -495,3 +495,8 @@
   padding: 20px;
   line-height: 40px;
 }
+
+#bottom {
+  height: 530px;
+  background: #0c1839;
+}
